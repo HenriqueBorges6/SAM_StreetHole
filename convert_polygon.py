@@ -3,9 +3,9 @@ import cv2
 import numpy as np
 
 # pastas
-pasta_imagens = "Data Segmentation/train/images/"
-pasta_labels = "Data Segmentation/train/labels"
-pasta_saida = "Data Segmentation/masks/"
+pasta_imagens = "Data Segmentation/valid/images/"
+pasta_labels = "Data Segmentation/valid/labels"
+pasta_saida = "Data Segmentation/masks_valid/"
 os.makedirs(pasta_saida, exist_ok=True)
 
 def carregar_poligono(caminho_txt):

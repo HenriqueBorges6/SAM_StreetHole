@@ -4,6 +4,7 @@
 
 * `convert_polygon.py`: script para conversão das máscaras em formato de polígonos compatível com YOLOv8 para máscaras de imagem com as classes burado e não-buraco.
 
+* `SAM Street Hole.pdf`: slides usados no vídeo de apresentação.
 
 
 [Vídeo de apresentação](https://www.youtube.com/watch?v=11M7sFsoofg)
